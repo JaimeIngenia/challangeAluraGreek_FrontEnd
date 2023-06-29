@@ -222,3 +222,13 @@
         margin-right: 0%;
     }
 }
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:376px) {
+
+    .card__general__carrousel {
+
+        justify-content: center;
+    }
+}
