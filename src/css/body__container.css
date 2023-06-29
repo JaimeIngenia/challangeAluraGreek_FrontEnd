@@ -1,0 +1,224 @@
+.body__container{
+    /* border: solid red 3px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.body__container__box{
+    /* border: solid rgb(0, 81, 255) 3px; */
+    width: 70%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+    .card__general{
+        /* border: solid rgb(17, 255, 0) 3px; */
+        margin-bottom: 36px;
+    }
+        .card__general__titulo{
+            /* border: solid rgb(255, 119, 0) 3px; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+
+            .card__general__titulo h3{
+                color: var(--preto-100, #464646);
+                font-size: 32px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        .card__general__titulo__verTodo{
+            /* border: solid rgb(26, 255, 0) 3px; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 10%;
+
+        }
+            .card__general__titulo__verTodo a{
+                text-decoration: none;
+                color: var(--cor-de-link);
+            }
+            .card__general__titulo__verTodo a p{
+                color: var(--azul-100, #2A7AE4);
+                font-size: 16px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+
+            .card__general__carrousel{
+                /* border: solid rgb(0, 234, 255) 3px; */
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+                .carrousel__card__principal{
+                    margin-bottom: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 8px;
+                    box-shadow: 10px 11px 31px -15px rgba(42,122,228,1);
+                    /* box-shadow: 10px 11px 31px -15px rgba(42,122,228,1);
+                    box-shadow: 10px 11px 31px -15px rgba(42,122,228,1); */
+                }
+                    .card__principal__img{
+                        width: 178px;
+                        height: 174px;
+                    }   
+                    .card__principal__img img{
+                        width: 100%;
+                    } 
+
+                    .card__principal__p1{
+                        /* display: flex;
+                        flex-direction: column;
+                        align-self: stretch; */
+                        color: var(--preto-100, #464646);
+                        font-size: 14px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                    .card__principal__p2{
+                        /* display: flex;
+                        flex-direction: column;
+                        align-self: stretch; */
+                        color: var(--preto-100, #464646);
+                        font-size: 16px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    .card__principal__p3{
+                        text-decoration: none;
+                        color: var(--cor-de-link);
+                        margin-bottom: 7px;
+                    }
+                    .card__principal__p3 p{
+                        color: var(--azul-100, #2A7AE4);
+                        font-size: 16px;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1800px) {
+    .body__container__box div:nth-child(7){
+        position: absolute;
+        top: -9999px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1560px) {
+    .body__container__box div:nth-child(6){
+        position: absolute;
+        top: -9999px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1440px) {
+    .body__container__box{
+        width: 80%;
+    }
+    .card__general__titulo__verTodo{
+        width: 15%;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1170px) {
+    .body__container__box div:nth-child(5){
+        position: absolute;
+        top: -9999px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1000px) {
+    .card__principal__img{
+        width: 164px;
+        height: 174px;
+    }  
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:923px) {
+    .body__container__box div:nth-child(4){
+        position: absolute;
+        top: -9999px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:900px) {
+    .body__container__box{
+        width: 95%;
+    }
+    .card__general__titulo__verTodo{
+        width: 25%;
+    }
+}
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:576px) {
+    .carrousel__card__principal{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .body__container__box div:nth-child(4){
+        position: relative;
+        top: 0.01px;
+    }
+    .card__principal__p3 p{
+        font-size: 14px;
+    }
+    .card__general{
+        /* border: solid rgb(17, 255, 0) 3px; */
+        margin-bottom: 6px;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:500px) {
+    .card__general__titulo__verTodo{
+        width: 30%;
+    }
+    .carrousel__card__principal{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
