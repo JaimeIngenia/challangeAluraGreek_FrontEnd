@@ -1,0 +1,31 @@
+.footer__container{
+    border: solid red 3px;
+    width: 100%;
+    background: var(--azul-10, #EAF2FD);
+}
+
+.footer__box{
+    border: solid rgb(0, 17, 255) 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+    .footer__box__izq{
+        border: solid rgb(0, 17, 255) 3px;
+    }
+
+    .footer__box__centro{
+        border: solid rgb(132, 255, 0) 3px;
+    }
+
+    .footer__box__der{
+        border: solid rgb(255, 0, 251) 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
