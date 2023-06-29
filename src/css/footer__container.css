@@ -19,6 +19,31 @@
 
     .footer__box__centro{
         border: solid rgb(132, 255, 0) 3px;
+        display: flex;
+        width: 25%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        flex-shrink: 0;
+    }
+
+    .footer__box__centro a{
+        text-decoration: none;
+        color: var(--cor-de-link);
+    }
+    .footer__box__centro a p{
+        color: var(--preto-100, #464646);
+        font-size: 16px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
     }
 
     .footer__box__der{
@@ -27,5 +52,66 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        width: 560px;
+        align-items: flex-start;
+        gap: 8px;
+        flex-shrink: 0;
     }
+
+        .footer__box__der h4{
+            color: var(--preto-100, #464646);
+            font-size: 16px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .footer__box__der__input1{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 8px;
+            align-self: stretch;
+            border: solid rgb(255, 0, 251) 3px;
+            background-color: white;
+        }
+
+        .footer__box__der__input1 p{
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-self: stretch; */
+            border: solid rgb(119, 212, 31) 3px;
+            color: var(--preto-50, #A2A2A2);
+            font-size: 12px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .footer__box__der__input1 input{
+            border: solid rgb(5, 81, 152) 3px;
+            color: var(--preto-100, #464646);
+            font-size: 16px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            width: 100%;
+            border: none;
+        }
+
+        .footer__box__der__input2{
+
+        }
+
+        .footer__box__der__input2 p{
+
+        }
+
+        .footer__box__der__input2 input{
+
+        }
