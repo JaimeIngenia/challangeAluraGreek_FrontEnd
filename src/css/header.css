@@ -1,0 +1,158 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: solid rgb(0, 255, 26) 3px; */
+    height: 80px;
+    width: 100%;
+}
+
+.header__box__principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid red 3px; */
+    width: 70%;
+}
+    .header__izq{
+        /* border: solid rgb(237, 116, 116) 3px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+    }
+
+        .header__izq__img {
+            /* border: solid red 3px; */
+            width: 25%;
+        }
+        
+        .header__izq__img img {
+            width: 100%;
+        }
+
+        .header__izq__input{
+            display: flex;
+            width: 70%;
+            padding: 8px 16px;
+            align-items: center;
+            border-radius: 20px;
+            background: var(--preto-05, #F5F5F5);
+        }
+
+            .header__izq__input input{
+                width: 90%;
+                border: none;
+                background: var(--preto-05, #F5F5F5);
+                color: var(--preto-50, #A2A2A2);
+                font-size: 14px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+            }
+
+
+            .header__izq__input img{
+                width: 100%;
+                width: 24px;
+                height: 24px;
+            }
+
+/* Boton */
+
+.header__der{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header__der button{
+    display: flex;
+    width: 100%;
+    height: 51px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--azul-100, #2A7AE4);
+    /* tipografia */
+    color: var(--azul-100, #2A7AE4);
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1440px) {
+    .header__box__principal{
+        width: 80%;
+    }
+
+    .header__izq__input{
+        width: 65%;
+    }
+
+    .header__der button{
+        height: 45px;
+        width: 180px;
+    }
+}
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1000px) {
+    .header__der button{
+        font-size: 14px;
+    }
+
+
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:900px) {
+    .header__box__principal{
+        width: 95%;
+    }
+}
+
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:700px) {
+    .header__izq{
+        width: 70%;
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:600px) {
+
+    .header__izq{
+        width: 100px;
+        height: 45px;
+    }
+    .header__izq__img{
+        width: 100%;
+    }
+    .header__izq__input{
+        border: none;
+        position: absolute;
+        top: -9999px;
+    }
+}
