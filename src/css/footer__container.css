@@ -1,24 +1,29 @@
 .footer__container{
-    border: solid red 3px;
+    /* border: solid red 3px; */
     width: 100%;
     background: var(--azul-10, #EAF2FD);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__box{
-    border: solid rgb(0, 17, 255) 3px;
+    /* border: solid rgb(0, 17, 255) 3px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    width: 70%;
 }
 
     .footer__box__izq{
-        border: solid rgb(0, 17, 255) 3px;
+        /* border: solid rgb(0, 17, 255) 3px; */
     }
 
     .footer__box__centro{
-        border: solid rgb(132, 255, 0) 3px;
+        /* border: solid rgb(132, 255, 0) 3px; */
         display: flex;
         width: 25%;
         flex-direction: column;
@@ -47,12 +52,12 @@
     }
 
     .footer__box__der{
-        border: solid rgb(255, 0, 251) 3px;
+        /* border: solid rgb(255, 0, 251) 3px; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 560px;
+        width: 36%;
         align-items: flex-start;
         gap: 8px;
         flex-shrink: 0;
@@ -72,9 +77,8 @@
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
-            gap: 8px;
             align-self: stretch;
-            border: solid rgb(255, 0, 251) 3px;
+            /* border: solid rgb(255, 0, 251) 3px; */
             background-color: white;
         }
 
@@ -83,7 +87,7 @@
             flex-direction: column;
             justify-content: center;
             align-self: stretch; */
-            border: solid rgb(119, 212, 31) 3px;
+            /* border: solid rgb(119, 212, 31) 3px; */
             color: var(--preto-50, #A2A2A2);
             font-size: 12px;
             font-family: Raleway;
@@ -93,7 +97,7 @@
         }
 
         .footer__box__der__input1 input{
-            border: solid rgb(5, 81, 152) 3px;
+            /* border: solid rgb(5, 81, 152) 3px; */
             color: var(--preto-100, #464646);
             font-size: 16px;
             font-family: Raleway;
@@ -105,13 +109,114 @@
         }
 
         .footer__box__der__input2{
-
+            border-radius: 4px;
+            background: var(--preto-branco, #FFF);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            align-self: stretch;
+            /* border: solid violet 3px; */
+            text-align: start;
         }
 
         .footer__box__der__input2 p{
-
+            width: 100%;
+            color: var(--preto-50, #A2A2A2);
+            font-size: 16px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
         }
 
         .footer__box__der__input2 input{
-
+            width: 100%;
+            border: none;
         }
+
+    .footer__box__der button{
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background: var(--azul-100, #2A7AE4);
+        color: var(--preto-branco, #FFF);
+        font-size: 16px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .footer__hecho__por{
+        width: 100%;
+        background: var(--preto-branco, #FFF);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .footer__hecho__por p{
+        color: var(--preto-100, #464646);
+        text-align: center;
+        font-size: 16px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        /* margin-top: 5px; */
+    }
+    .footer__hecho__por--p2{
+        margin-top: 5px;
+    }
+
+
+
+
+
+
+
+    /* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:1440px) {
+    
+    .footer__box{
+        width: 80%;
+
+    }
+}
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:900px) {
+    .footer__box{
+        width: 95%;
+    }
+}
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:523px) {
+
+    .footer__box{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__box__der{
+        margin: auto;
+        width: 100%;
+    }
+
+    
+    .footer__box__centro{
+        width: 45%;
+    }
+
+}
