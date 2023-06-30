@@ -14,5 +14,5 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: dotted 5px blue;
+    /* border: dotted 5px blue; */
 }
