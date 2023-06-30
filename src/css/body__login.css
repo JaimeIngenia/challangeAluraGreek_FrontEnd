@@ -79,3 +79,15 @@
     font-weight: 400;
     line-height: normal;
 }
+
+
+
+/* PARTE RESPONSIVE***************************************************************************** */
+
+@media only screen and (max-width:900px) {
+
+    .login__box{
+        /* border: solid rgb(66, 5, 5) 3px; */
+        width: 90%;
+    }
+}
