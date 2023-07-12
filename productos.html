@@ -41,7 +41,7 @@
     <!-- cuerpo principal Prodcutos -->
 
     <section class="producto__container">
-        <form class="producto__box">
+        <form class="producto__box" >
             
             <h1>Agregar nuevo producto</h1>
 
@@ -54,12 +54,16 @@
                     >
             </div>
 
-            <div class="agregar__categoria box__agregar">
+            <div 
+                class="agregar__categoria box__agregar"
+                
+                >
                 <p>Categoría</p>
                 <input 
-                type="text" 
-                id=""
-                value="Consolas"
+                    data-form-input-agregar-categorias
+                    type="text" 
+                    id=""
+                    value="Consolas"
                 >
             </div>
 
@@ -89,7 +93,10 @@
                 >
             </div>
 
-            <button>Agregar producto</button>
+            <button
+                data-form-btn-agregar-productos  
+                type="submit"  
+            >Agregar producto</button>
 
         </form>
     </section>
@@ -149,6 +156,9 @@
             <p class="footer__hecho__por--p2">2023</p>
         </div>
     </section>
+
+    <!-- Logica JavaScript -->
+    <script src="./app.js" ></script>
     
 </body>
 </html>
