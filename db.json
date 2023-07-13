@@ -1,9 +1,40 @@
 {
   "perfin":[
     {
-      "nombre": "Jaime Andrés",
-      "emaiñ": "jamoncayop@unal.edu.co",
-      "id":1
+      "img": "./src/images/card_img1.svg",
+      "nombre": "Producto X Y Z",
+      "valor":1000
+    },
+    {
+      "img": "./src/images/card_img1.svg",
+      "nombre": "Producto X Y Z",
+      "valor":1000
+    },
+    {
+      "img": "./src/images/card_img1.svg",
+      "nombre": "Producto X Y Z",
+      "valor":1000
+    },
+    {
+      "img": "./src/images/card_img1.svg",
+      "nombre": "Producto X Y Z",
+      "valor":1000
+    },
+    {
+      "img": "./src/images/card_img1.svg",
+      "nombre": "Producto X Y Z",
+      "valor":1000
+    },
+    {
+      "img": "./src/images/card_img1.svg",
+      "nombre": "Producto X Y Z",
+      "valor":1000
+    },
+    {
+      "img": "./src/images/card_img1.svg",
+      "nombre": "Producto X Y Z",
+      "valor":1000
     }
+
   ]
 }
