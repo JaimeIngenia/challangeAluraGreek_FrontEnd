@@ -41,7 +41,7 @@
     <!-- cuerpo principal Prodcutos -->
 
     <section class="producto__container">
-        <form class="producto__box" >
+        <form class="producto__box" data-form >
             
             <h1>Agregar nuevo producto</h1>
 
@@ -51,6 +51,7 @@
                     type="text" 
                     id=""
                     value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAA.png"
+                    data-imagen
                     >
             </div>
 
@@ -64,6 +65,7 @@
                     type="text" 
                     id=""
                     value="Consolas"
+                    data-categoria
                 >
             </div>
 
@@ -73,6 +75,7 @@
                 type="text" 
                 id=""
                 value="Producto XYZ"
+                data-nombre
                 >
             </div>
 
@@ -82,6 +85,7 @@
                 type="text" 
                 id=""
                 value="$ 60,00"
+                data-valor
                 >
             </div>
 
@@ -158,7 +162,8 @@
     </section>
 
     <!-- Logica JavaScript -->
-    <script src="./app.js" ></script>
+    <script type="module" src="./controllers/registro.controller.js" ></script>
+    <!-- <script src="./app.js" ></script> -->
     
 </body>
 </html>
