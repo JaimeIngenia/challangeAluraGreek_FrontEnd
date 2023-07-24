@@ -14,7 +14,9 @@
     margin-bottom: 40px;
     position: relative;
 }
-
+.iconos_edicion{
+    background-color: blue;
+}
     .card__general{
         /* border: solid rgb(17, 255, 0) 3px; */
         margin-bottom: 36px;
@@ -91,9 +93,25 @@
                     .card__principal__img{
                         width: 178px;
                         height: 174px;
+                        /* border: dotted 3px red; */
+                        /* background-image: url('../images/card_img1.svg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        margin: 0 auto; */
+                        display: flex;
+                        flex-direction: row;
+                        position: relative;
                     }   
-                    .card__principal__img img{
-                        width: 100%;
+                    .card__principal__img .card__principal__iconos{
+                        width: 30%;
+                        /* border: solid red 4px; */
+                        display: flex;
+                        position: absolute;
+                        right: 5%;
+                        justify-content: space-between;
+                        top: 5%;
+
                     } 
 
                     .card__principal__p1{

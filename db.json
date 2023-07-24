@@ -1,40 +1,47 @@
 {
-  "perfin":[
+  "perfin": [
     {
       "img": "./src/images/card_img1.svg",
       "nombre": "Producto X Y Z",
-      "valor":1000
+      "valor": 1000
     },
     {
       "img": "./src/images/card_img1.svg",
       "nombre": "Producto X Y Z",
-      "valor":1000
+      "valor": 1000
     },
     {
       "img": "./src/images/card_img1.svg",
       "nombre": "Producto X Y Z",
-      "valor":1000
+      "valor": 1000
     },
     {
       "img": "./src/images/card_img1.svg",
       "nombre": "Producto X Y Z",
-      "valor":1000
+      "valor": 1000
     },
     {
       "img": "./src/images/card_img1.svg",
       "nombre": "Producto X Y Z",
-      "valor":1000
+      "valor": 1000
     },
     {
       "img": "./src/images/card_img1.svg",
       "nombre": "Producto X Y Z",
-      "valor":1000
+      "valor": 1000
     },
     {
       "img": "./src/images/card_img1.svg",
       "nombre": "Producto X Y Z",
-      "valor":1000
+      "valor": 1000
     }
-
+  ],
+  "perfin2": [
+    {
+      "img": "./src/images/card_img1.svg",
+      "nombre": "Producto XYZ",
+      "valor": "$ 60,00",
+      "id": "8a7f5af9-3da9-45c0-ad1d-9475c94265e8"
+    }
   ]
 }

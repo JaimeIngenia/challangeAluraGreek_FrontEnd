@@ -1,7 +1,5 @@
 
-//Interacción Js y HTML
 
-// import {clientServices  } from '../service/client-service'
 import { clientServices } from '../service/client_service.js'
 
 const crearNuevaLinea = (img,nombre,valor) =>{
@@ -26,7 +24,6 @@ const crearNuevaLinea = (img,nombre,valor) =>{
 
 const card = document.querySelector("[data-card]");
 
-// const listaClientes = () => fetch("http://localhost:3000/perfin").then( (respuesta) => respuesta.json() );
 
 clientServices
     .listaClientes()
