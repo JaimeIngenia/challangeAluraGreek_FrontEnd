@@ -24,9 +24,27 @@ const eliminarCliente = (id) => {
 }
 
 
+const detalleCliente = (id) => {
+    return fetch(`http://localhost:3000/perfin2/${id}`)
+        .then((response) => response.json())
+}
+
+const actualizarCliente = (img,nombre, valor,id) => {
+    return fetch(`http://localhost:3000/perfin2/${id}`,{
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json'
+        }, body: JSON.stringify(  { img, nombre, valor } )
+    })
+    .then((response) => response )
+    .catch((err) => console.log(err))
+}
+
 export const clientServices = {
     listaClientes,
     listaClientesConsola,
     crearCliente,
-    eliminarCliente
+    eliminarCliente,
+    detalleCliente,
+    actualizarCliente
 }

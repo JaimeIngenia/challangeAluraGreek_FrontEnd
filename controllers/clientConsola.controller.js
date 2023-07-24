@@ -13,8 +13,8 @@ const crearNuevaLinea = (img,nombre,valor,id) =>{
         <div class="card__principal__img">
             <img src="${img}" alt="">
             <div class="card__principal__iconos">
-            <button id=${id} ><img src="./src/images/borrar.svg" alt=""></button>
-            <button><img src="./src/images/lapiz_editar.svg" alt=""></button>
+                <button id=${id} ><img src="./src/images/borrar.svg" alt=""></button>
+                <a href="../producto_editar.html?id=${id}" ><img src="./src/images/lapiz_editar.svg" alt=""></a>
             </div>
         </div>
         <p class="card__principal__p1">${nombre}</p>
