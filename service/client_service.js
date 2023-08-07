@@ -15,6 +15,15 @@ const crearCliente = (img,nombre,valor) => {
     })
 }
 
+const crearClienteLogin = (correo,password) => {
+    return fetch("http://localhost:3000/perfin3" , {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({correo,password, id: uuid.v4() }),
+    })
+}
 
 const eliminarCliente = (id) => {
     console.log("Eliminar ---->" + id);
@@ -46,5 +55,6 @@ export const clientServices = {
     crearCliente,
     eliminarCliente,
     detalleCliente,
-    actualizarCliente
+    actualizarCliente,
+    crearClienteLogin
 }

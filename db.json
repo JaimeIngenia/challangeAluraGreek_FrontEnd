@@ -48,6 +48,74 @@
       "nombre": "eje11155",
       "valor": "10",
       "id": "8c8b95e6-1a51-488f-b850-68fa3b53cc5e"
+    },
+    {
+      "img": "./src/images/cuatro.svg",
+      "nombre": "Producto XYZ",
+      "valor": "$ 60,00",
+      "id": "5d43d0af-7166-4fd2-829d-e17a3a7541e1"
+    }
+  ],
+  "perfin3": [
+    {
+      "correo": "jamoncayop@unal.edu.co",
+      "password": "1234",
+      "id": "1"
+    },
+    {
+      "correo": "claudia@gmail.com",
+      "password": "0000",
+      "id": "2"
+    },
+    {
+      "correo": "j.andresr.jm@gmail.com",
+      "password": "9876",
+      "id": "e944d444-801c-4976-a5fd-8c7edfad36fb"
+    },
+    {
+      "correo": "otro",
+      "password": "o",
+      "id": "c6bafd4d-e529-46b9-a49d-91b9f1027ac3"
+    },
+    {
+      "correo": "s",
+      "password": "s",
+      "id": "07247bdb-244c-4443-9223-783046a7b8e6"
+    },
+    {
+      "correo": "a",
+      "password": "s",
+      "id": "e7546009-636a-48c1-a107-3fffa547053a"
+    },
+    {
+      "correo": "f",
+      "password": "f",
+      "id": "f6681f36-3d9c-4cd2-9439-e40ecafa48dc"
+    },
+    {
+      "correo": "q",
+      "password": "q",
+      "id": "a16d8c92-60a6-4b5e-bc8c-4c6fc50eff64"
+    },
+    {
+      "correo": "as",
+      "password": "s",
+      "id": "de9ef0fc-ce91-4e59-bd9f-3603ebaad2c4"
+    },
+    {
+      "correo": "d",
+      "password": "d",
+      "id": "e89a1c2f-197c-4ee8-8c38-e3a0a0548b1d"
+    },
+    {
+      "correo": "y",
+      "password": "y",
+      "id": "bfe9adc2-f7d4-4718-beb2-b38b51ec0aa6"
+    },
+    {
+      "correo": "w",
+      "password": "w",
+      "id": "d3c6852c-0c12-4ef1-b8e0-3e3cc5179f07"
     }
   ]
 }

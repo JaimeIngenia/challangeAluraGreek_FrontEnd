@@ -43,7 +43,7 @@
     <!-- cuerpo principal login -->
 
     <section class="login__container">
-        <form class="login__box">
+        <form class="login__box" data-form-login>
             
             <h1>Iniciar Sesión</h1>
 
@@ -52,6 +52,7 @@
                     type="text" 
                     id=""
                     placeholder="Escriba su correo electrónico"
+                    data-form-correo
                     >
             </div>
 
@@ -60,6 +61,7 @@
                 type="text" 
                 id=""
                 placeholder="Escriba su contraseña"
+                data-form-password
                 >
             </div>
 
@@ -123,6 +125,9 @@
             <p class="footer__hecho__por--p2">2023</p>
         </div>
     </section>
-    
+
+    <script src="./controllers/registroLogin.controller.js" type="module" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" referrerpolicy="no-referrer"></script>
+
 </body>
 </html>

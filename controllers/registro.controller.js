@@ -15,16 +15,16 @@ formulario.addEventListener("submit", (evento)=>{
     //console.log("formulario");
     //console.log(nombre," - ",valor);
     
-    clientServices
-        .crearCliente(img,nombre,valor)
-        .then( (respuesta) => {
+clientServices
+    .crearCliente(img,nombre,valor)
+    .then( (respuesta) => {
 
-            //console.log(respuesta);
+        //console.log(respuesta);
 
-            //window.location.href = "../productos.html"
-            //window.location.href = "../registroCompletado.html"
-            window.location.href = "../consola.html"
-            
-        })
-        .catch( (err) => console.log(err));
+        //window.location.href = "../productos.html"
+        //window.location.href = "../registroCompletado.html"
+        window.location.href = "../consola.html"
+        
+    })
+    .catch( (err) => console.log(err));
 });
